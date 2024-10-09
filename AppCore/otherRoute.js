@@ -32,7 +32,7 @@ module.exports = function (app) {
 			);
 		} else {
 			fetch(
-				`https://raw.githubusercontent.com/aiko-chan-ai/DiscordBotClient/${DiscordBuildVersion}/index.html`,
+				`https://raw.githubusercontent.com/gru2007/StormCord/refs/heads/electron-v3/DiscordCore/index.html`,
 			)
 				.then((r) => r.text())
 				.then((r) => res.send(r));
